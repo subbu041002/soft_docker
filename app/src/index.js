@@ -6,7 +6,7 @@ const app = express();
 const hostname = os.hostname();
 
 app.get('/', (req, res) => {
-    res.send("Hello World, I am deployed from GH actions and Digital Ocean.");
+    res.send("Hello World, I am developer");
 })
 
 app.get('/home', (req, res) => {
